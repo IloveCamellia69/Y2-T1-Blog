@@ -13,45 +13,46 @@ footer {
 
 /* Navigation bar */
 .nav {
-	height: 6em;
-	margin: 0;
+	display: flex;
+	justify-content: space-between;
+	height: 6rem;
 	background-color: white;
 	box-shadow: 0 0px 50px rgba(255, 0, 87, 0.5);
 }
 
-.b-icon {
-	float: left;
-	margin-left: 0.5em;
+.logo {
+	display: flex;
+	align-items: center;
+}
+
+.logo img {
+	width: 3rem;
+	padding-right: 1rem;
+	border-right: 0.3rem solid black;
+	margin: 1rem;
 }
 
 .b-icon img {
-	width: 3em;
-	margin: 1em;
-	padding-right: 0.5em;
-	border-right: 3px solid black;
+	width: 3rem;
 }
 
 .date {
 	font-family: "elza", sans-serif;
 	font-weight: 700;
-	font-style: normal;
-	font-size: 35px;
-	width: 200px;
+	font-size: 2rem;
 	color: black;
-	float: left;
-	margin-top: -6px;
-	margin-left: 0.2em;
 }
 
 .tabs {
-	float: right;
-	margin: 0.5em;
-	margin-top: 20px;
+	display: flex;
+	margin-right: 1rem;
 }
 
-.tabs ul li {
-	display: inline-block;
-	margin: 0 2em;
+.tabs ul {
+	display: flex;
+	align-items: center;
+	gap: 3rem;
+	list-style-type: none;
 }
 
 .tabs ul li a {
@@ -84,67 +85,51 @@ footer {
 
 .banner {
 	display: flex;
-	height: 630px;
-	margin-bottom: 15em;
+	margin: 10rem 0 15rem 0;
+	align-items: center;
+	justify-content: center;
 }
 
 /* banner title */
 .banner-title {
 	width: 50%;
-	float: left;
-	border-right: 3px solid white;
-	margin-top: 10rem;
+	border-right: 5px solid white;
 }
 
 .banner-title h1 {
 	color: white;
-	text-align: right;
+	justify-content: left;
 	font-family: "elza", sans-serif;
-	font-size: 8em;
-	margin-right: 100px;
+	font-size: 8rem;
 }
 
 /* Banner text */
 .banner-text {
-	width: 50%;
+	width: 45%;
 	color: white;
-	margin-top: 13em;
-	padding-left: 4em;
 	font-family: "Courier New", Courier, monospace;
-	text-align: left;
+	margin-left: 3rem;
 }
 
 /* Sub Head */
 .sub-head {
 	color: white;
 	font-family: "elza", sans-serif;
-	font-size: 3.5em;
+	font-size: 3.5rem;
 	text-align: center;
 }
 
 /* Grid */
-.blog-post {
+.grid {
 	width: 1500px;
 	margin: 0 auto;
 }
 
-.grid {
-	display: flex;
-	margin: 0 auto;
-}
-
-.col-1,
-.col-2,
-.col-3,
-.col-4 {
-	width: 25%;
-	float: left;
-}
-
 .row {
-	padding: 1em 0;
-	margin: 0 auto;
-	height: 400px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 /* Card */
@@ -157,14 +142,14 @@ footer {
 .card {
 	position: relative;
 	cursor: pointer;
-	margin: 0 3.5em;
+	margin: 0 1.5rem;
 }
 
 .face {
 	width: 300px;
 	height: 200px;
 	transition: 0.5s;
-	border-radius: 2.5em;
+	border-radius: 2.5rem;
 }
 
 .face1 {
@@ -180,7 +165,7 @@ footer {
 .card:hover .face.face1 {
 	background: #ff0057;
 	transform: translateY(0);
-	border-radius: 2em 2em 0 0;
+	border-radius: 2rem 2rem 0 0;
 }
 
 .face1 .content {
@@ -197,7 +182,7 @@ footer {
 	color: black;
 	text-align: center;
 	font-family: "elza", sans-serif;
-	font-size: 1.5em;
+	font-size: 1.5rem;
 }
 
 .face2 {
@@ -217,7 +202,7 @@ footer {
 	transform: translateY(0);
 	transition: 0.8s;
 	opacity: 1;
-	border-radius: 0 0 2em 2em;
+	border-radius: 0 0 2rem 2rem;
 }
 
 .face2 .content p {
@@ -246,6 +231,8 @@ footer {
 /* Footer */
 .f-row {
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .f-col-1 p {
@@ -255,7 +242,6 @@ footer {
 .f-col-1,
 .f-col-2 {
 	width: 45%;
-	float: left;
 }
 
 .f-col-2 {
@@ -265,7 +251,7 @@ footer {
 .f-col-1 h4,
 .f-col-2 h4 {
 	font-family: "elza", sans-serif;
-	font-size: 2em;
+	font-size: 2rem;
 }
 
 .f-col-1 p,
@@ -279,7 +265,7 @@ footer {
 }
 
 .copy {
-	margin-bottom: 2em;
+	margin-bottom: 2rem;
 	font-family: "Courier New", Courier, monospace;
 	font-weight: bolder;
 }
