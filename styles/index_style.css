@@ -29,6 +29,12 @@ footer {
 	background-color: white;
 }
 
+#blog {
+	position: relative;
+	z-index: -99999;
+	height: 3rem;
+}
+
 .navbar {
 	display: flex;
 	justify-content: space-between;
