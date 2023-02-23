@@ -180,7 +180,7 @@ footer {
 }
 
 #scroll-down::before {
-	animation: elasticus 1.2s cubic-bezier(1, 0, 0, 1) infinite;
+	animation: fall 1.2s cubic-bezier(1, 0, 0, 1) infinite;
 	position: absolute;
 	top: 0px;
 	left: 50%;
@@ -191,7 +191,7 @@ footer {
 	content: " ";
 }
 
-@keyframes elasticus {
+@keyframes fall {
 	0% {
 		-webkit-transform-origin: 0% 0%;
 		-ms-transform-origin: 0% 0%;
