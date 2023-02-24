@@ -212,25 +212,42 @@ hr {
 		transform: scale(1, 0);
 	}
 }
-/* BODY
 
+.week-title {
+	font-family: "elza", sans-serif;
+	font-weight: 700;
+	font-size: 3rem;
+	justify-content: center;
+	color: white;
+	margin-bottom: 2rem;
+}
+.week-sub-title h5:nth-child(2) {
+	color: red;
+}
 
+.text-content {
+	margin: 1rem 1rem;
+}
 
+.text-content p {
+	margin: 1rem 0;
+	color: white;
+	font-family: "Courier New", Courier, monospace;
+}
 
+.week-sub-title {
+	color: white;
+	font-size: 2rem;
+	font-family: "elza", sans-serif;
+}
 
+.personas {
+	margin: 5rem 0;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-HERE*/
+.text-content img {
+	width: 100%;
+}
 
 .f-grid {
 	display: flex;
