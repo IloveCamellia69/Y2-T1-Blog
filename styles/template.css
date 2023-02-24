@@ -213,6 +213,10 @@ hr {
 	}
 }
 
+.red-highlight {
+	color: #ff0057;
+}
+
 .week-title {
 	font-family: "elza", sans-serif;
 	font-weight: 700;
@@ -220,9 +224,6 @@ hr {
 	justify-content: center;
 	color: white;
 	margin-bottom: 2rem;
-}
-.week-sub-title h5:nth-child(2) {
-	color: red;
 }
 
 .text-content {
@@ -241,7 +242,7 @@ hr {
 	font-family: "elza", sans-serif;
 }
 
-.personas {
+.sub-section {
 	margin: 5rem 0;
 }
 
