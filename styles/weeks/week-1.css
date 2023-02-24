@@ -1,0 +1,24 @@
+.week-title {
+	font-family: "elza", sans-serif;
+	font-weight: 700;
+	font-size: 3rem;
+	justify-content: center;
+	color: white;
+	margin-bottom: 2rem;
+}
+
+.text-content {
+	margin: 1rem 1rem;
+}
+
+.text-content p {
+	margin: 1rem 0;
+	color: white;
+	font-family: "Courier New", Courier, monospace;
+}
+
+.week-sub-title {
+	color: white;
+	font-size: 2rem;
+	font-family: "elza", sans-serif;
+}
