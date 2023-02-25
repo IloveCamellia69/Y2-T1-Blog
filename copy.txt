@@ -1,0 +1,20 @@
+This is a weekly blog that i update with my progress on
+for the year. It's where i'll document what i do on the
+daily basis in a summarized form. This would only be the
+final stuff that makes it into projects. So the small
+nitty gritty things will not be here, they will be in
+<a
+href="https://trello.com/b/q17n7PSl/jacky-lin-year-2"
+>
+trello</a
+>.
+
+This website in not meant for any other purpose other than
+to document the design process of current work in MDS.
+
+
+Disclaimer
+
+This website is used for educational purposes only
+
+Copyright &copy; 2023 All Rights Reserved by Jacky Lin.
