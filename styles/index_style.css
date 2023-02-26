@@ -31,6 +31,11 @@ a {
 	text-decoration: none;
 }
 
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
 .font-elze {
 	font-family: "elza", sans-serif;
 }
@@ -49,6 +54,10 @@ a {
 
 .flex-wrap {
 	flex-wrap: wrap;
+}
+
+.flex-row {
+	flex-direction: row;
 }
 
 .justify-center {
@@ -131,7 +140,6 @@ a {
 
 	.line-menu {
 		background-color: var(--main-colour);
-		border-radius: 5px;
 		width: 100%;
 		height: 4px;
 	}
@@ -190,7 +198,56 @@ a {
 	background-image: url("../images/background.svg");
 	height: 500px;
 	background-size: cover;
-	opacity: 0.6;
 	position: relative;
 	z-index: -9999;
+	box-shadow: inset 0 0 4rem var(--main-colour),
+		0 0 10rem var(--accent-colour);
+}
+
+.banner-content {
+	background-color: var(--main-colour);
+	padding: 3rem 4rem;
+	width: 80%;
+}
+
+.banner-title {
+	color: var(--secondary-colour);
+	font-size: 4rem;
+	border-right: 3px solid var(--secondary-colour);
+	padding-right: 4rem;
+	width: 100%;
+}
+
+.banner-text {
+	color: var(--secondary-colour);
+	font-size: 1rem;
+	text-align: justify;
+	margin-left: 4rem;
+}
+
+@media (max-width: 1025px) {
+	.banner-content {
+		flex-direction: column;
+	}
+
+	.banner-title {
+		padding-right: 0;
+		border-right: none;
+		border-bottom: 3px solid var(--secondary-colour);
+	}
+
+	.banner-text {
+		margin-left: 0;
+		padding-top: 2rem;
+	}
+}
+
+@media (max-width: 768px) {
+	.banner-content {
+		padding: 2rem 3rem;
+	}
+
+	.banner-title {
+		font-size: 3rem;
+	}
 }
