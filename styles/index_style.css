@@ -450,3 +450,45 @@ button {
 		width: 100%;
 	}
 }
+
+.f-container {
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 10rem;
+}
+
+.f-grid {
+	gap: 3rem;
+}
+
+.f-about,
+.f-disclaimer {
+	width: 50%;
+}
+
+.f-about h4,
+.f-disclaimer h4 {
+	margin-bottom: 2rem;
+}
+
+.f-text {
+	margin: 1rem 0;
+}
+
+@media (max-width: 1025px) {
+	.f-container {
+		width: auto;
+		margin: 0 auto;
+		padding-top: 5rem;
+	}
+
+	.f-grid {
+		padding: 2rem;
+		flex-direction: column;
+	}
+
+	.f-about,
+	.f-disclaimer {
+		width: 100%;
+	}
+}
