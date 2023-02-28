@@ -48,6 +48,34 @@ a {
 	font-weight: 700;
 }
 
+.font-colour {
+	color: var(--secondary-colour);
+}
+
+.font-colour-dark {
+	color: var(--main-colour);
+}
+
+/* Paragraph */
+.font-1rem {
+	font-size: 1rem;
+}
+
+/* Alt Heading */
+.font-2rem {
+	font-size: 2rem;
+}
+
+/* Sub-heaing */
+.font-3rem {
+	font-size: 3rem;
+}
+
+/* Heading */
+.font-4rem {
+	font-size: 4rem;
+}
+
 .display-flex {
 	display: flex;
 }
@@ -99,8 +127,6 @@ a {
 }
 
 .logo-date {
-	font-size: 2rem;
-	color: var(--main-colour);
 	margin: 0.4rem 0 0 0.3rem;
 }
 
@@ -111,14 +137,6 @@ a {
 
 .nav-item a {
 	font-family: "elza", sans-serif;
-	font-weight: 700;
-	color: var(--main-colour);
-}
-
-.nav-link {
-	font-size: 1.2rem;
-	font-weight: 400;
-	color: var(--main-colour);
 }
 
 .icon {
@@ -219,16 +237,12 @@ a {
 }
 
 .banner-title {
-	color: var(--secondary-colour);
-	font-size: 4rem;
 	border-right: 3px solid var(--secondary-colour);
 	padding-right: 4rem;
 	width: 100%;
 }
 
 .banner-text {
-	color: var(--secondary-colour);
-	font-size: 1rem;
 	text-align: justify;
 	margin-left: 4rem;
 }
@@ -263,7 +277,7 @@ a {
 #arrow-wrapper {
 	display: table;
 	width: 100%;
-	margin: 8rem auto;
+	margin: 10rem auto;
 }
 
 #arrow-wrapper-inner {
@@ -337,7 +351,8 @@ a {
 	}
 }
 
-.blog-section h1 {
-	font-size: 4rem;
-	color: white;
+@media (max-wdith: 768px) {
+	.blog-section h1 {
+		margin: 0 2rem;
+	}
 }
