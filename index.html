@@ -11,43 +11,69 @@
 	</head>
 
 	<body>
-		<header class="header">
+		<header>
 			<!-- Nav Bard -->
-			<nav class="navbar">
+			<nav class="navbar display-flex justify-space-between algin-cneter">
 				<!-- Logo -->
-				<div class="logo">
+				<div class="logo display-flex align-center">
 					<img src="images/b-icon.png" alt="Logo" />
-					<div class="logo-date">
+					<div
+						class="logo-date font-elze font-bold font-colour-dark font-2rem"
+					>
 						<p id="autodate"></p>
 					</div>
 				</div>
 				<!-- Navigation Menu -->
-				<ul class="nav-menu">
-					<li class="nav-item">
-						<a href="../index.html" class="nav-link">HOME</a>
-					</li>
-					<li class="nav-item">
-						<a href="#blog" class="nav-link">BLOG</a>
-					</li>
-					<li class="nav-item">
-						<a href="../index.html" class="nav-link">ABOUT</a>
-					</li>
-				</ul>
-				<div class="hamburger">
-					<span class="bar"></span>
-					<span class="bar"></span>
-					<span class="bar"></span>
+				<div class="menu display-flex">
+					<ul
+						class="nav-menu display-flex justify-space-between align-center justify-center font-bold"
+					>
+						<li class="nav-item">
+							<a
+								href="../index.html"
+								class="nav-link font-colour-dark font-1rem"
+								>HOME</a
+							>
+						</li>
+						<li class="nav-item">
+							<a
+								href="#blog"
+								class="nav-link font-colour-dark font-1rem"
+								>BLOG</a
+							>
+						</li>
+						<li class="nav-item">
+							<a
+								href="../index.html"
+								class="nav-link font-colour-dark font-1rem"
+								>ABOUT</a
+							>
+						</li>
+					</ul>
+				</div>
+
+				<!-- Burger icon -->
+				<div class="icon display-flex align-center">
+					<div class="burger-menu justify-space-between">
+						<div class="line-menu half start"></div>
+						<div class="line-menu"></div>
+						<div class="line-menu half end"></div>
+					</div>
 				</div>
 			</nav>
 		</header>
 
-		<div class="wrapper">
-			<div class="row">
-				<div class="banner-title">
-					<p>Weekly</p>
-					<p>&nbsp;Blog</p>
+		<section class="banner display-flex align-center justify-center">
+			<div
+				class="banner-content display-flex flex-row justify-center align-center"
+			>
+				<div
+					class="banner-title font-elze font-bold font-colour font-4rem"
+				>
+					<h1>Weekly</h1>
+					<h1>Blog</h1>
 				</div>
-				<div class="banner-text">
+				<div class="banner-text font-courier font-colour font-1rem">
 					<p>
 						This is a weekly blog that i update with my progress on
 						for the year. It's where i'll document what i do on the
@@ -62,225 +88,237 @@
 					</p>
 				</div>
 			</div>
-		</div>
+		</section>
 
-		<div id="arrow-wrapper">
-			<div id="arrow-wrapper-inner">
-				<div id="scroll-down">
-					<span class="arrow-down">
-						<!-- css generated icon -->
-					</span>
-				</div>
-			</div>
-		</div>
-		<div id="blog"></div>
-		<!-- Subheading -->
-		<div class="sub-head">
-			<h3>Blog Posts</h3>
-		</div>
-		<div class="grid">
-			<div class="card-col">
-				<div class="card-container">
-					<div class="card">
-						<div class="face face1">
-							<div class="content">
-								<h3>Week 1</h3>
-							</div>
-						</div>
-						<div class="face face2">
-							<div class="content">
-								<p>
-									Suffering the wrath of stuff to do in
-									Interactive design. This only week one and I
-									think theres too much.
-								</p>
-								<a href="weeks/week-1.html">Read More</a>
-							</div>
-						</div>
+		<section>
+			<div id="arrow-wrapper">
+				<div id="arrow-wrapper-inner">
+					<div id="scroll-down">
+						<span class="arrow-down">
+							<!-- css icon -->
+						</span>
 					</div>
 				</div>
 			</div>
-			<div class="card-col">
-				<div class="card-container">
-					<div class="card">
-						<div class="face face1">
-							<div class="content">
-								<h3>Week 2</h3>
-							</div>
-						</div>
-						<div class="face face2">
-							<div class="content">
-								<p>
-									Suffering the wrath of stuff to do in
-									Interactive design. This only week one and I
-									think theres too much.
-								</p>
-								<a href="#">Read More</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="card-col">
-				<div class="card-container">
-					<div class="card">
-						<div class="face face1">
-							<div class="content">
-								<h3>Week 3</h3>
-							</div>
-						</div>
-						<div class="face face2">
-							<div class="content">
-								<p>
-									Suffering the wrath of stuff to do in
-									Interactive design. This only week one and I
-									think theres too much.
-								</p>
-								<a href="#">Read More</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="card-col">
-				<div class="card-container">
-					<div class="card">
-						<div class="face face1">
-							<div class="content">
-								<h3>Week 4</h3>
-							</div>
-						</div>
-						<div class="face face2">
-							<div class="content">
-								<p>
-									Suffering the wrath of stuff to do in
-									Interactive design. This only week one and I
-									think theres too much.
-								</p>
-								<a href="#">Read More</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="card-col">
-				<div class="card-container">
-					<div class="card">
-						<div class="face face1">
-							<div class="content">
-								<h3>Week 5</h3>
-							</div>
-						</div>
-						<div class="face face2">
-							<div class="content">
-								<p>
-									Suffering the wrath of stuff to do in
-									Interactive design. This only week one and I
-									think theres too much.
-								</p>
-								<a href="#">Read More</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="card-col">
-				<div class="card-container">
-					<div class="card">
-						<div class="face face1">
-							<div class="content">
-								<h3>Week 6</h3>
-							</div>
-						</div>
-						<div class="face face2">
-							<div class="content">
-								<p>
-									Suffering the wrath of stuff to do in
-									Interactive design. This only week one and I
-									think theres too much.
-								</p>
-								<a href="#">Read More</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="card-col">
-				<div class="card-container">
-					<div class="card">
-						<div class="face face1">
-							<div class="content">
-								<h3>Week 7</h3>
-							</div>
-						</div>
-						<div class="face face2">
-							<div class="content">
-								<p>
-									Suffering the wrath of stuff to do in
-									Interactive design. This only week one and I
-									think theres too much.
-								</p>
-								<a href="#">Read More</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="card-col">
-				<div class="card-container">
-					<div class="card">
-						<div class="face face1">
-							<div class="content">
-								<h3>Week 8</h3>
-							</div>
-						</div>
-						<div class="face face2">
-							<div class="content">
-								<p>
-									Suffering the wrath of stuff to do in
-									Interactive design. This only week one and I
-									think theres too much.
-								</p>
-								<a href="#">Read More</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+		</section>
 
+		<section>
+			<div class="blog-section">
+				<div class="b-title display-flex justify-center">
+					<h2 class="font-elze font-bold font-colour font-4rem">
+						Blog Posts
+					</h2>
+				</div>
+
+				<div class="grid-container">
+					<div class="grid display-flex flex-wrap justify-center">
+						<div class="panel panel-1 p-active">
+							<div class="p-content">
+								<div class="p-title">
+									<h3
+										class="font-elze font-bold font-3rem font-colour-accent"
+									>
+										Week 1
+									</h3>
+								</div>
+								<div
+									class="p-text font-courier font-1rem font-colour"
+								>
+									<p>
+										Suffering the wrath of stuff to do in
+										Interactive design. This only week one
+										and I think theres too much.
+									</p>
+								</div>
+								<a href="#">
+									<button
+										type="button"
+										class="p-button font-elze font-bold font-1rem font-colour-dark"
+									>
+										Read More
+									</button>
+								</a>
+							</div>
+						</div>
+
+						<div class="panel panel-2">
+							<div class="p-content">
+								<div class="p-title">
+									<h3
+										class="font-elze font-bold font-3rem font-colour-accent"
+									>
+										Week 2
+									</h3>
+								</div>
+								<div
+									class="p-text font-courier font-1rem font-colour"
+								>
+									<p>
+										Suffering the wrath of stuff to do in
+										Interactive design. This only week one
+										and I think theres too much.
+									</p>
+								</div>
+								<a href="#">
+									<button
+										type="button"
+										class="p-button font-elze font-bold font-1rem font-colour-dark"
+									>
+										Read More
+									</button>
+								</a>
+							</div>
+						</div>
+						<div class="panel panel-3">
+							<div class="p-content">
+								<div class="p-title">
+									<h3
+										class="font-elze font-bold font-3rem font-colour-accent"
+									>
+										Week 3
+									</h3>
+								</div>
+								<div
+									class="p-text font-courier font-1rem font-colour"
+								>
+									<p>
+										Suffering the wrath of stuff to do in
+										Interactive design. This only week one
+										and I think theres too much.
+									</p>
+								</div>
+								<a href="#">
+									<button
+										type="button"
+										class="p-button font-elze font-bold font-1rem font-colour-dark"
+									>
+										Read More
+									</button>
+								</a>
+							</div>
+						</div>
+						<div class="panel panel-4">
+							<div class="p-content">
+								<div class="p-title">
+									<h3
+										class="font-elze font-bold font-3rem font-colour-accent"
+									>
+										Week 4
+									</h3>
+								</div>
+								<div
+									class="p-text font-courier font-1rem font-colour"
+								>
+									<p>
+										Suffering the wrath of stuff to do in
+										Interactive design. This only week one
+										and I think theres too much.
+									</p>
+								</div>
+								<a href="#">
+									<button
+										type="button"
+										class="p-button font-elze font-bold font-1rem font-colour-dark"
+									>
+										Read More
+									</button>
+								</a>
+							</div>
+						</div>
+						<div class="panel panel-5">
+							<div class="p-content">
+								<div class="p-title">
+									<h3
+										class="font-elze font-bold font-3rem font-colour-accent"
+									>
+										Week 5
+									</h3>
+								</div>
+								<div
+									class="p-text font-courier font-1rem font-colour"
+								>
+									<p>
+										Suffering the wrath of stuff to do in
+										Interactive design. This only week one
+										and I think theres too much.
+									</p>
+								</div>
+								<a href="#">
+									<button
+										type="button"
+										class="p-button font-elze font-bold font-1rem font-colour-dark"
+									>
+										Read More
+									</button>
+								</a>
+							</div>
+						</div>
+
+						<div class="panel panel-6">
+							<div class="p-content">
+								<div class="p-title">
+									<h3
+										class="font-elze font-bold font-3rem font-colour-accent"
+									>
+										Week 6
+									</h3>
+								</div>
+								<div
+									class="p-text font-courier font-1rem font-colour"
+								>
+									<p>
+										Suffering the wrath of stuff to do in
+										Interactive design. This only week one
+										and I think theres too much.
+									</p>
+								</div>
+								<a href="#">
+									<button
+										type="button"
+										class="p-button font-elze font-bold font-1rem font-colour-dark"
+									>
+										Read More
+									</button>
+								</a>
+							</div>
+						</div>
+
+						<div class="panel panel-7">
+							<div class="p-content">
+								<div class="p-title">
+									<h3
+										class="font-elze font-bold font-3rem font-colour-accent"
+									>
+										Week 7
+									</h3>
+								</div>
+								<div
+									class="p-text font-courier font-1rem font-colour"
+								>
+									<p>
+										Suffering the wrath of stuff to do in
+										Interactive design. This only week one
+										and I think theres too much.
+									</p>
+								</div>
+								<a href="#">
+									<button
+										type="button"
+										class="p-button font-elze font-bold font-1rem font-colour-dark"
+									>
+										Read More
+									</button>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Linked js scripts for cool stuff -->
 		<script src="js/burger.js"></script>
 		<script src="js/date.js"></script>
 		<script src="js/scroll.js"></script>
 	</body>
-	<footer>
-		<div class="f-grid">
-			<div class="f-col">
-				<h4>ABOUT</h4>
-				<p>
-					This is a weekly blog that i update with my progress on for
-					the year. It's where i'll document what i do on the daily
-					basis in a summarized form. This would only be the final
-					stuff that makes it into projects. So the small nitty gritty
-					things will not be here, they will be in
-					<a href="https://trello.com/b/q17n7PSl/jacky-lin-year-2">
-						trello</a
-					>.
-				</p>
-			</div>
-			<div class="f-col">
-				<h4>Disclaimer</h4>
-				<p>This website is used for educational purposes only.</p>
-				<p>
-					This website in not meant for any other purpose other than
-					to document the design process of current work in MDS.
-				</p>
-			</div>
-		</div>
-
-		<div class="copy">
-			<hr />
-			<p>Copyright &copy; 2023 All Rights Reserved by Jacky Lin.</p>
-		</div>
-	</footer>
 </html>
