@@ -128,10 +128,6 @@ button {
 	margin: 1rem;
 }
 
-.logo-date {
-	margin: 0.4rem 0 0 0.3rem;
-}
-
 .nav-menu {
 	gap: 3rem;
 	margin-right: 1rem;
@@ -393,7 +389,6 @@ button {
 	width: 20rem;
 	padding: 2rem;
 	background-color: var(--main-colour);
-	margin-top: 3.5rem;
 	border-radius: 10px;
 }
 
