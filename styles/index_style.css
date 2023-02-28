@@ -31,6 +31,12 @@ a {
 	text-decoration: none;
 }
 
+button {
+	border: 0;
+	background-color: none;
+	cursor: pointer;
+}
+
 .container {
 	width: 1000px;
 	margin: 0 auto;
@@ -54,6 +60,10 @@ a {
 
 .font-colour-dark {
 	color: var(--main-colour);
+}
+
+.font-colour-accent {
+	color: var(--accent-colour);
 }
 
 /* Paragraph */
@@ -98,14 +108,6 @@ a {
 
 .align-center {
 	align-items: center;
-}
-
-.width-25 {
-	width: 25%;
-}
-
-.width-50 {
-	width: 50%;
 }
 
 #blog {
@@ -354,5 +356,84 @@ a {
 @media (max-wdith: 768px) {
 	.blog-section h1 {
 		margin: 0 2rem;
+	}
+}
+
+.grid {
+	gap: 1rem;
+	align-items: start;
+	margin: 5rem 3rem;
+}
+
+.panel-1 {
+	background-image: url("../images/summative-moodboard.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.panel {
+	border-radius: 10px;
+	border: 1px solid var(--accent-colour);
+	height: 400px;
+	padding: 1rem;
+	width: 24%;
+}
+
+.panel:hover {
+	scale: 0.99;
+	box-shadow: inset 0 0 3rem var(--secondary-colour);
+	transition: 0.25s ease-in-out;
+}
+
+.p-active {
+	width: 49%;
+}
+
+.p-content {
+	width: 20rem;
+	padding: 2rem;
+	background-color: var(--main-colour);
+	margin-top: 3.5rem;
+	border-radius: 10px;
+}
+
+.p-text {
+	margin-top: 2rem;
+}
+
+.p-button {
+	background-color: var(--secondary-colour);
+	width: 8rem;
+	height: 3rem;
+	margin-top: 2rem;
+}
+
+.p-button:hover {
+	color: var(--accent-colour);
+	background-color: var(--main-colour);
+	scale: 1.1;
+	transition: 0.3s ease-in-out;
+}
+
+@media (max-width: 1540px) {
+	.panel {
+		width: 32%;
+	}
+
+	.p-active {
+		width: 65.2%;
+	}
+}
+
+@media (max-width: 1160px) {
+	.grid {
+		gap: 3rem;
+	}
+	.panel {
+		width: 100%;
+	}
+
+	.p-active {
+		width: 100%;
 	}
 }
