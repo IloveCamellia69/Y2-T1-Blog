@@ -430,6 +430,19 @@ button {
 		gap: 3rem;
 	}
 	.panel {
+		width: 36.5%;
+	}
+
+	.p-active {
+		width: 36.6%;
+	}
+}
+
+@media (max-width: 1060px) {
+	.grid {
+		gap: 3rem;
+	}
+	.panel {
 		width: 100%;
 	}
 
