@@ -367,6 +367,12 @@ button {
 	background-size: cover;
 }
 
+.panel-2 {
+	background-image: url("../images/week2/brand-style.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
 .panel {
 	border-radius: 10px;
 	border: 1px solid var(--accent-colour);

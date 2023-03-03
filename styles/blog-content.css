@@ -2,6 +2,7 @@
 	width: 1000px;
 	margin: 0 auto;
 	flex-direction: column;
+	padding: 0 1rem;
 }
 
 section {
@@ -11,4 +12,14 @@ section {
 .text-content,
 p {
 	margin: 2rem 0;
+}
+
+@media screen and (width < 1000px) {
+	.wrapper {
+		width: auto;
+	}
+
+	img {
+		width: 100%;
+	}
 }
