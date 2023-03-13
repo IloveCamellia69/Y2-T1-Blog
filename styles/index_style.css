@@ -368,7 +368,13 @@ button {
 }
 
 .panel-2 {
-	background-image: url("../images/week2/brand-style.jpg");
+	background-image: url("../images/week2/proto-map.png");
+	background-position: center;
+	background-size: cover;
+}
+
+.panel-3 {
+	background-image: url("../images/week3/website-test.png");
 	background-position: center;
 	background-size: cover;
 }
@@ -407,6 +413,10 @@ button {
 	width: 8rem;
 	height: 3rem;
 	margin-top: 2rem;
+}
+
+.panel-8 .p-button {
+	width: 10rem;
 }
 
 .p-button:hover {
