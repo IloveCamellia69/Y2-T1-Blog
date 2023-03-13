@@ -12,3 +12,11 @@ section {
 p {
 	margin: 2rem 0;
 }
+
+img {
+	width: 100%;
+}
+
+.text-content > ul > li {
+	padding: 1rem 0;
+}
